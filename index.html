@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='gamemanager.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet" href="style.css">
+    <script src='js/gamemanager.js'></script>
+    <script src='js/player.js'></script>
+    <script src='js/enemy.js'></script>
+</head>
+<body>
+   <div class="header">
+        <p>Fantasy Character Battle</p>
+        <h2>Choose Your Team!</h2>
+   </div> 
+   <div class="interface">
+    <a href="#">
+        <img src="./img/avatar-player/Hero.jpg" alt="hero" onClick="GameManager.setGameStart('Hero')"> 
+        <div>
+            <h3>Hero</h3>
+            <p>high attack and mid-defense and magick damage, Heroes are known to control the battle field, and bring a losing team back from the brink of defeat.</p>
+     </div>
+     </a>
+        <a href="#">
+            <img src="./img/avatar-player/Warrior.jpg" alt="warrior" onClick="GameManager.setGameStart('Warrior')"> 
+            <div>
+                <h3>Warrior</h3>
+                <p>Warroirs have higher attack strenth, although they are not as fast as rouges; they have well rounded health and defense.</p>
+         </div>
+         </a>
+        <a href="#">
+            <img src="./img/avatar-player/Rouge.jpg" alt="rouge" onClick="GameManager.setGameStart('Rouge')"> 
+             <div>
+                 <h3>Rouge</h3>
+                 <p>Rouges are fast and have high stamina and speed which makes up for their lack in strenth and health.</p>
+             </div>
+         </a>
+         <a href="#">
+            <img src="./img/avatar-player/Mage.jpg" alt="mage" onClick="GameManager.setGameStart('Mage')"> 
+             <div>
+                 <h3>Mage</h3>
+                 <p>Mages are glass canons which puts all their effort into spells. This means they slack on everything else.</p>
+             </div>
+         </a>
+         <a href="#">
+            <img src="./img/avatar-player/Healer.jpg" alt="healer" onClick="GameManager.setGameStart('Healer')"> 
+             <div>
+                 <h3>Healer</h3>
+                 <p>One the most important member on any team, able to use spells to heal not only themselves, but also their teammates as well.</p>
+             </div>
+         </a>
+    <div class="actions">
+
+    </div> 
+    <div class="arena">
+
+    </div> 
+    <div class="enemies">
+
+    </div> 
+</body>
+</html>
+
+
