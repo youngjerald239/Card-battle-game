@@ -11,7 +11,7 @@ let GameManager = {
             case "Warrior":
                 player = new Player(classType, 200, 0, 200, 100, 50);
                 break;
-            case "Rouge":
+            case "Rogue":
                 player = new Player(classType, 100, 0, 100, 150, 350);
                 break;
             case "Mage":
@@ -19,7 +19,7 @@ let GameManager = {
                 break;
             case "Healer":
                 player = new Player(classType, 100, 150, 80, 200, 50);
-                break;
+                
         }
         let getInterface = document.querySelector(".interface");
         getInterface.innerHTML = '<img src="img/avatar-player/' + 
